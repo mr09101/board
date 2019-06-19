@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 node_modules/
 .vscode/
 .gradle/
@@ -24,4 +25,32 @@ Release/
 hs_err_pid*
 **/sec.properties
 
+=======
+node_modules/
+.vscode/
+.gradle/
+.settings/
+bin/
+build/
+temp/
+Debug/
+Release/
+
+.DS_Store
+.classpath
+.project
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+**/sec.properties
+
+>>>>>>> branch 'master' of https://github.com/mr09101/board.git
 !build.gradle
