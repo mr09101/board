@@ -27,7 +27,7 @@
         if(result == 1){
             PrintWriter script = response.getWriter();
             script.println("<script>");
-            script.println("<location.href = 'main.jsp'");
+            script.println("location.href = 'main.jsp'");
             script.println("</script>");
         }
 
@@ -39,6 +39,7 @@
             script.println("alert('비밀번호가 틀립니다.')");
             script.println("history.back()");
             script.println("</script>");
+           
         }
 
         //아이디 없음
